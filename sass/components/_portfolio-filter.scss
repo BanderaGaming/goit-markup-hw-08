@@ -1,0 +1,28 @@
+.filter-options {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+  }
+
+  .filter-option {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    cursor: pointer;
+    background-color: var(--filter-option-color);
+    border-radius: 4px;
+    font-family: "Roboto";
+    padding: 6px 25px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, background-color, box-shadow;
+
+    &:hover,&:focus{
+      background-color: var(--main-studio-color);
+  color: var(--main-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+  }
