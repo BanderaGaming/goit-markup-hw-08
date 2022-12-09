@@ -1,9 +1,13 @@
 .bottom-main-box {
    margin-bottom: 60px;
 
+    @media screen and (min-width:768px){
+      margin-right: 168px;
+    }
+
     @media screen and (min-width:1200px){
-      margin-right: 70px;
       margin-bottom: 0;
+margin-right: 70px;
     }
   }
 

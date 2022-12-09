@@ -1,0 +1,26 @@
+.mobile-menu{
+    margin-bottom: 306px;
+}
+
+.mobile-menu li{
+    &:not(:last-child) {
+        margin-bottom: 32px;
+  } 
+  
+  }
+
+  .link{
+    color: var(--main-black-color);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: calc(47/40);
+
+    transition-property: color  ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,&:focus{
+        color: var(--main-studio-color);
+    }
+   
+}

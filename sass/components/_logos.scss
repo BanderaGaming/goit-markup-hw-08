@@ -12,6 +12,17 @@
   }
 }
 
+.header__logo{
+  margin-right: 276px;
+  @media screen and (min-width:768px){
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width:1200px){
+    margin-right: 93px;
+  }
+}
+
 .logo__first-parth {
     color: var(--main-studio-color);
   }
@@ -22,10 +33,6 @@
 
   .logo-bottom-parth {
     color: var(--bottom-logo-color);
-  }
-
-  .header__logo{
-    margin-right: 95px;
   }
 
   .footer__logo {

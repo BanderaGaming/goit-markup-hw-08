@@ -1,0 +1,16 @@
+.menu__social-list {
+    display: flex;
+}
+.menu__socials {
+    color:var(--main-studio-color) ;
+    padding-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2); 
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height:calc(22/18);
+
+    &:last-child{
+        border: none;
+    }
+}
