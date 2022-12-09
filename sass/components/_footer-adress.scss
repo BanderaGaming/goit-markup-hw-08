@@ -1,9 +1,18 @@
 .bottom-main-box {
-    margin-right: 70px;
+   margin-bottom: 60px;
+
+    @media screen and (min-width:1200px){
+      margin-right: 70px;
+      margin-bottom: 0;
+    }
   }
 
   .adress-list > :not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+
+    @media screen and (min-width:1200px){
+      margin-bottom: 10px;
+    }
   }
   
   .studio-adress {
@@ -15,8 +24,13 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
 
     &:hover,&:focus{
         color: var(--main-studio-color);
+    }
+
+    @media screen and (min-width:1200px){
+      text-align:start;
     }
   }

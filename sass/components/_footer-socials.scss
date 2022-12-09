@@ -1,5 +1,11 @@
 .social-bottom-box {
-    margin-right: 93px;
+  margin-bottom: 60px;
+  
+    @media screen and (min-width:1200px){
+      text-align:start;
+      margin-right: 93px;
+      margin-bottom: 0;
+    }
   }
   
   .follow-us-title {
@@ -10,6 +16,11 @@
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     margin-bottom: 20px;
+    text-align: center;
+
+    @media screen and (min-width:1200px){
+      text-align:start;
+    }
   }
   
   .follow-us-list {

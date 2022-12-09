@@ -6,11 +6,20 @@
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     margin-bottom: 20px;
+    text-align: center;
+
+    @media screen and (min-width:1200px){
+      text-align:start;
+    }
   }
   
   .subscribe-form {
+  
+
+    @media screen and (min-width:1200px){
     display: flex;
-  }
+    }
+  } 
   
   .subscribe-email-imput {
     color: var(--white-color);
@@ -19,13 +28,14 @@
     border-color: var(--subscribe-imput-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    width: 358px;
+    width: 450px;
     height: 50px;
     padding: 15px 16px;
     outline: transparent;
     font-size: 16px;
     line-height: calc(20 / 16);
     letter-spacing: 0.03em;
+    margin-bottom: 20px;
   
     transition-property: border-color;
     transition-duration: 250ms;
@@ -38,6 +48,11 @@
         color: var(--bottom-contact-color);
 
     }
+
+    @media screen and (min-width:1200px){
+      width: 358px;   
+      margin-bottom: 0;
+     }
   }
   
   .subscribe-btn {
@@ -59,8 +74,15 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 12px;
+    margin-right: auto;
+    margin-left: auto;
 
     &:hover,&:focus{
         background-color: var(--active-button-color);
+    }
+
+    @media screen and (min-width:1200px){
+      margin-right: 0;
+      margin-left: 0;
     }
   }

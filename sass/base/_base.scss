@@ -6,13 +6,22 @@ body {
   }
 
   .main-sections-padding {
-    padding-bottom: 94px;
-    padding-top: 94px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    @media screen and (min-width:1200px){
+      padding-bottom: 94px;
+      padding-top: 94px;
+    }
   }
   
   .main-section-title {
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width:1200px){
+     margin-bottom: 50px;
+    }
   }

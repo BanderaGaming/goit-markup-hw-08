@@ -5,8 +5,11 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.02em;
-  width: 145px;
-  margin-right: 95px;
+  width: 134px;
+
+  @media screen and (min-width:1200px){
+    width: 145px;
+  }
 }
 
 .logo__first-parth {
@@ -21,7 +24,19 @@
     color: var(--bottom-logo-color);
   }
 
+  .header__logo{
+    margin-right: 95px;
+  }
+
   .footer__logo {
     margin-bottom: 20px;
     display: block;
+    width: 145px;
+    margin-right:auto ;
+    margin-left: auto;
+
+    @media screen and (min-width:1200px){
+      margin-right: 0;
+      margin-left: 0;
+    }
   }

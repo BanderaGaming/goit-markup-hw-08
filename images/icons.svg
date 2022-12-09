@@ -78,5 +78,8 @@
     <symbol id="icon-username" viewBox="0 0 32 32">
       <path d="M16 16a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 4c-5.3 0-16 2.7-16 8v2c0 1.1.9 2 2 2h28a2 2 0 0 0 2-2v-2c0-5.3-10.7-8-16-8z"/>
     </symbol>
+     <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path d="M6.4 11.7V9.6h19.2v2.1H6.4zm0 5.4h19.2v-2.2H6.4v2.2zm0 5.3h19.2v-2.1H6.4v2.1z"/>
+    </symbol>
   </defs>
 </svg>
