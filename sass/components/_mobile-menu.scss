@@ -12,6 +12,7 @@
   }
   
   .menu-toggle {
+    margin-left: auto;
     min-height: 40px;
     min-width: 40px;
     display: flex;
@@ -44,6 +45,8 @@
   
   
   .menu-container {
+    display: flex;
+    flex-direction: column;
     background-color: var(--white-color);
     position: fixed;
     top: 0;
